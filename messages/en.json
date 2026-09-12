@@ -1,0 +1,83 @@
+{
+  "site": {
+    "tagline": "Animated components, 3D scenes and scroll effects",
+    "description": "Copy-paste React components: Three.js scenes, GSAP scroll animations, shader backgrounds and animated UI pieces."
+  },
+  "nav": {
+    "documentation": "Documentation",
+    "browse": "Browse",
+    "installation": "Installation",
+    "search": "Search…"
+  },
+  "commandMenu": {
+    "placeholder": "Search components, docs…",
+    "noResults": "No results.",
+    "docsGroup": "Docs",
+    "browseAll": "Browse all"
+  },
+  "browse": {
+    "searchPlaceholder": "Search {count} components",
+    "all": "All",
+    "sortPopular": "Popular",
+    "sortRecent": "Recent",
+    "empty": "Nothing matches “{query}”."
+  },
+  "detail": {
+    "breadcrumbBrowse": "Browse",
+    "variantOf": "Variant of {family} · same source code, different defaults",
+    "aboutTitle": "About {name}",
+    "aboutBody": "{name} runs in the {category} category with {runtime}. Live controls: {controls}. It's a single file — copy it, tweak the props, ship it.",
+    "propKey": "prop",
+    "propType": "type",
+    "propDefault": "default",
+    "dependencies": "dependencies",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "playground": {
+    "noDemo": "Demo not found.",
+    "noSource": "No source found. Run `pnpm registry`.",
+    "usageTab": "Usage",
+    "codeTab": "Code",
+    "installTab": "Install",
+    "installStep1Title": "Install dependencies",
+    "installStep2Title": "Copy the files into your project",
+    "installStep2Body": "Copy {files} from {path} into the same path in your own project.",
+    "installStep3Title": "Use it",
+    "installStep3Body": "Paste the snippet from the Usage tab. Anything you change in the props panel is reflected in the snippet."
+  },
+  "notFound": {
+    "title": "No such component.",
+    "cta": "Back to Browse"
+  },
+  "docs": {
+    "kicker": "Getting started",
+    "title": "Installation",
+    "intro": "{name} isn't an npm package — it's a copy-paste component collection (the shadcn/ui approach). Each component is a single file that ships with its own props. The source is yours to keep and change however you like.",
+    "step1Title": "Install dependencies",
+    "step1Body": "Only install what the component you're using needs. To install everything at once:",
+    "step1ThreeLabel": "three + @react-three/fiber + drei",
+    "step1ThreeDesc": "3D scenes and shader backgrounds",
+    "step1GsapLabel": "gsap",
+    "step1GsapDesc": "ScrollTrigger and SplitText (every plugin has been free since 3.13)",
+    "step1MotionLabel": "motion",
+    "step1MotionDesc": "UI micro-interactions",
+    "step1LenisLabel": "lenis",
+    "step1LenisDesc": "smooth scroll (optional)",
+    "step2Title": "Copy the component file",
+    "step2Body": "Copy the source from the <code>Code</code> tab on any component's page and paste it into your project at <path></path>. The path doesn't matter — just fix up the import to match.",
+    "step3Title": "Use it",
+    "step3Body": "3D and scroll components are client-only; the file already starts with \"use client\" in Next.js.",
+    "step4Title": "Smooth scroll (optional)",
+    "step4Body": "For the site's smooth-scroll feel, copy <path></path> and wrap it around your root layout. Lenis and GSAP ScrollTrigger stay in sync on a single ticker.",
+    "requirementsTitle": "Requirements",
+    "reqReactDom": "react / react-dom",
+    "reqNext": "next",
+    "reqThree": "three",
+    "reqBrowser": "Browser",
+    "reqWebgl": "WebGL2 (WebGPU optional)"
+  },
+  "loader": {
+    "label": "Loading"
+  }
+}

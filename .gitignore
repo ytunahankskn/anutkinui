@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated registry sources (rebuilt by `pnpm registry` / predev / prebuild)
+/src/registry/__generated__/
+
+# private notes — not for the public repo (agent workflow, internal research, dev log)
+/.claude/
+/.omc/
+/CLAUDE.md
+/docs/agents/
+/docs/arastirma/
+/docs/gelisim-gunlugu.md

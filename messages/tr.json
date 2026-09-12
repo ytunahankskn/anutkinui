@@ -1,0 +1,83 @@
+{
+  "site": {
+    "tagline": "Animasyonlu bileşenler, 3D sahneler ve scroll efektleri",
+    "description": "Kopyala-yapıştır hazır React bileşenleri: Three.js sahneleri, GSAP scroll animasyonları, shader arka planları ve hareketli UI parçaları."
+  },
+  "nav": {
+    "documentation": "Dokümantasyon",
+    "browse": "Keşfet",
+    "installation": "Kurulum",
+    "search": "Ara…"
+  },
+  "commandMenu": {
+    "placeholder": "Bileşen veya doküman ara…",
+    "noResults": "Sonuç yok.",
+    "docsGroup": "Dokümanlar",
+    "browseAll": "Tümünü keşfet"
+  },
+  "browse": {
+    "searchPlaceholder": "{count} bileşen içinde ara",
+    "all": "Tümü",
+    "sortPopular": "Popüler",
+    "sortRecent": "En yeni",
+    "empty": "“{query}” ile eşleşen bir şey yok."
+  },
+  "detail": {
+    "breadcrumbBrowse": "Keşfet",
+    "variantOf": "{family} ailesinin varyantı · aynı kaynak kod, farklı varsayılanlar",
+    "aboutTitle": "{name} hakkında",
+    "aboutBody": "{name}, {category} kategorisinde {runtime} ile çalışır. Canlı kontroller: {controls}. Bileşen tek dosyadır; kopyala, prop'larını değiştir, yayınla.",
+    "propKey": "prop",
+    "propType": "tip",
+    "propDefault": "varsayılan",
+    "dependencies": "bağımlılıklar",
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+  "playground": {
+    "noDemo": "Demo bulunamadı.",
+    "noSource": "Kaynak bulunamadı. `pnpm registry` çalıştır.",
+    "usageTab": "Kullanım",
+    "codeTab": "Kod",
+    "installTab": "Kurulum",
+    "installStep1Title": "Bağımlılıkları kur",
+    "installStep2Title": "Dosyaları projene kopyala",
+    "installStep2Body": "{path} altındaki {files} dosyasını kendi projene aynı yola kopyala.",
+    "installStep3Title": "Kullan",
+    "installStep3Body": "Kullanım sekmesindeki kod parçasını yapıştır. Props panelinde yaptığın ayarlar otomatik yansır."
+  },
+  "notFound": {
+    "title": "Böyle bir bileşen yok.",
+    "cta": "Keşfet'e dön"
+  },
+  "docs": {
+    "kicker": "Başlarken",
+    "title": "Kurulum",
+    "intro": "{name} bir npm paketi değil, kopyala-yapıştır bir bileşen koleksiyonudur (shadcn/ui mantığı). Her bileşen tek bir dosyadır ve kendi prop'larıyla gelir. Kaynak kod sana ait olur; istediğin gibi değiştirirsin.",
+    "step1Title": "Bağımlılıkları kur",
+    "step1Body": "Bileşen hangi kütüphaneyi kullanıyorsa onu kurman yeterli. Hepsini bir kerede kurmak istersen:",
+    "step1ThreeLabel": "three + @react-three/fiber + drei",
+    "step1ThreeDesc": "3D sahneler ve shader arka planları",
+    "step1GsapLabel": "gsap",
+    "step1GsapDesc": "ScrollTrigger ve SplitText (3.13'ten beri tüm eklentiler ücretsiz)",
+    "step1MotionLabel": "motion",
+    "step1MotionDesc": "UI mikro etkileşimleri",
+    "step1LenisLabel": "lenis",
+    "step1LenisDesc": "smooth scroll (opsiyonel)",
+    "step2Title": "Bileşen dosyasını kopyala",
+    "step2Body": "Bir bileşenin sayfasındaki <code>Code</code> sekmesinden kaynağı kopyala ve projende <path></path> yoluna yapıştır. Yol önemli değil; import'u kendine göre düzelt.",
+    "step3Title": "Kullan",
+    "step3Body": "3D ve scroll bileşenleri client-only çalışır; Next.js'te dosyanın başında \"use client\" zaten var.",
+    "step4Title": "Smooth scroll (opsiyonel)",
+    "step4Body": "Sitedeki yumuşak scroll hissi için <path></path> dosyasını kopyalayıp root layout'una sar. Lenis ile GSAP ScrollTrigger tek ticker üzerinden senkron çalışır.",
+    "requirementsTitle": "Gereksinimler",
+    "reqReactDom": "react / react-dom",
+    "reqNext": "next",
+    "reqThree": "three",
+    "reqBrowser": "Tarayıcı",
+    "reqWebgl": "WebGL2 (WebGPU opsiyonel)"
+  },
+  "loader": {
+    "label": "Yükleniyor"
+  }
+}
