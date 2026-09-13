@@ -1,7 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/providers/ThemeProvider";
 
 const subscribeNoop = () => () => {};
 import { Monitor, Moon, Sun } from "lucide-react";

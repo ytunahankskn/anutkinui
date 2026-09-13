@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "../globals.css";
-import { ThemeProvider } from "@/providers/ThemeProvider";
+import { NO_FLASH_SCRIPT, ThemeProvider } from "@/providers/ThemeProvider";
 import { SmoothScroll } from "@/providers/SmoothScroll";
 import { Sidebar } from "@/components/shell/Sidebar";
 import { CommandMenu } from "@/components/shell/CommandMenu";
@@ -60,6 +61,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full bg-bg text-fg">
+        <Script id="theme-no-flash" strategy="beforeInteractive">
+          {NO_FLASH_SCRIPT}
+        </Script>
         <NextIntlClientProvider>
           <ThemeProvider>
             <SmoothScroll>
